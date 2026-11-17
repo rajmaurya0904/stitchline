@@ -1,6 +1,9 @@
 [project]
 name = "stitchline"
 version = "0.1.0"
+
+[project.scripts]
+stitchline = "stitchline.cli:main"
 description = "Automatically generates and keeps up-to-date OpenAPI specifications by statically analyzing TypeScript router code and test suites."
 requires-python = ">=3.11"
 license = { text = "MIT" }
